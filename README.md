@@ -11,3 +11,6 @@ the form of fireflies if done with traditional path tracing.
 
 
 
+![My image](CausticSample.png)
+
+![My image](HardLightSample.png)
