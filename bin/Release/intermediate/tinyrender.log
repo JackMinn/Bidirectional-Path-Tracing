@@ -1,0 +1,6 @@
+﻿  renderer.cpp
+d:\assignment5\src\integrators\bdpt.h(146): warning C4018: '<': signed/unsigned mismatch
+  tinyrender.vcxproj -> D:\Assignment5\bin\Release\tinyrender.exe
+  D:\Assignment5\externals\opengl\dll\glew32.dll
+  D:\Assignment5\externals\opengl\dll\SDL2.dll
+  2 File(s) copied

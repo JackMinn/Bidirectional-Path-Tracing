@@ -1,0 +1,92 @@
+﻿  integrator.cpp
+d:\assignment5\externals\bvh.h(156): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  renderer.cpp
+d:\assignment5\externals\bvh.h(156): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+d:\assignment5\src\integrators\direct.h(160): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\integrators\direct.h(288): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\integrators\direct.h(361): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\integrators\direct.h(422): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\integrators\path.h(126): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\integrators\path.h(174): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\integrators\bdpt.h(79): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\integrators\bdpt.h(160): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\integrators\bdpt.h(374): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\assignment5\src\core\renderer.cpp(392): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+d:\assignment5\externals\bvh.h(156): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  renderpass.cpp
+d:\assignment5\src\core\renderpass.cpp(229): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+renderer.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function "public: void __cdecl TinyRender::Renderer::render(void)" (?render@Renderer@TinyRender@@QEAAXXZ)
+renderpass.obj : error LNK2001: unresolved external symbol SDL_GL_SwapWindow
+renderer.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl TinyRender::Renderer::render(void)" (?render@Renderer@TinyRender@@QEAAXXZ)
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewDrawBuffers
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewUniform3f
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewBindFramebuffer
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewBindFramebuffer
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewCheckFramebufferStatus
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewCheckFramebufferStatus
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewDeleteFramebuffers
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewDeleteFramebuffers
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewFramebufferTexture2D
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewFramebufferTexture2D
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewGenFramebuffers
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewGenFramebuffers
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+renderer.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+renderpass.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "public: bool __cdecl TinyRender::RenderPass::initOpenGL(int,int)" (?initOpenGL@RenderPass@TinyRender@@QEAA_NHH@Z)
+renderpass.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function "public: bool __cdecl TinyRender::RenderPass::initOpenGL(int,int)" (?initOpenGL@RenderPass@TinyRender@@QEAA_NHH@Z)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: bool __cdecl TinyRender::RenderPass::initOpenGL(int,int)" (?initOpenGL@RenderPass@TinyRender@@QEAA_NHH@Z)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: bool __cdecl TinyRender::RenderPass::initOpenGL(int,int)" (?initOpenGL@RenderPass@TinyRender@@QEAA_NHH@Z)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: virtual void __cdecl TinyRender::RenderPass::cleanUp(void)" (?cleanUp@RenderPass@TinyRender@@UEAAXXZ)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function "public: bool __cdecl TinyRender::RenderPass::initOpenGL(int,int)" (?initOpenGL@RenderPass@TinyRender@@QEAA_NHH@Z)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "public: bool __cdecl TinyRender::RenderPass::initOpenGL(int,int)" (?initOpenGL@RenderPass@TinyRender@@QEAA_NHH@Z)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_GL_SetSwapInterval referenced in function "public: bool __cdecl TinyRender::RenderPass::initOpenGL(int,int)" (?initOpenGL@RenderPass@TinyRender@@QEAA_NHH@Z)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_GL_DeleteContext referenced in function "public: virtual void __cdecl TinyRender::RenderPass::cleanUp(void)" (?cleanUp@RenderPass@TinyRender@@UEAAXXZ)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: bool __cdecl TinyRender::RenderPass::initOpenGL(int,int)" (?initOpenGL@RenderPass@TinyRender@@QEAA_NHH@Z)
+renderpass.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: virtual void __cdecl TinyRender::RenderPass::cleanUp(void)" (?cleanUp@RenderPass@TinyRender@@UEAAXXZ)
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewDetachShader
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+renderpass.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+renderpass.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+MSVCRT.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ)
+D:\Assignment5\externals\opengl\glew\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Assignment5\externals\opengl\SDL2\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Assignment5\externals\opengl\SDL2\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Assignment5\x64\Release\tinyrender.exe : fatal error LNK1120: 49 unresolved externals

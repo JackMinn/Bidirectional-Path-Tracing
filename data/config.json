@@ -1,0 +1,29 @@
+{
+  "firstlast": "John Doe",
+  "id": 123456789,
+  "course": 446,
+  "assignment": 5,
+  "renders": [
+    { "scene": "Implicit path tracing with 1 bounce",
+      "render": "offline/livingroom_path_implicit_1_bounce.exr"
+    },
+    { "scene": "Implicit path tracing with 2 bounces",
+      "render": "offline/livingroom_path_implicit_2_bounce.exr"
+    },
+    { "scene": "Implicit path tracing with 4 bounces",
+      "render": "offline/livingroom_path_implicit_4_bounces.exr"
+    },
+    { "scene": "Explicit path tracing with 1 bounce",
+      "render": "offline/livingroom_path_explicit_1_bounce.exr"
+    },
+    { "scene": "Explicit path tracing with 2 bounces",
+      "render": "offline/livingroom_path_explicit_2_bounces.exr"
+    },
+    { "scene": "Explicit path tracing with Russian roulette",
+      "render": "offline/livingroom_path_explicit_rr.exr"
+    },
+    { "scene": "Precomputed GI",
+      "render": "realtime/cubebox_gi.exr"
+    }
+  ]
+}

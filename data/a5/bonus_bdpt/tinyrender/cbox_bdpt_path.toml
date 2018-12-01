@@ -1,0 +1,21 @@
+[input]
+objfile = "../mesh/cbox.obj"
+
+[camera]
+eye = [ 0.0, 0.8, 3.8 ]
+at = [ 0.0, 0.8, 0.0 ]
+up = [ 0.0, 1.0, 0.0 ]
+fov = 30.0
+
+[film]
+width = 800
+height = 600
+
+[renderer]
+realtime = false
+isExplicit = true
+type = "path"
+maxDepth = -1
+rrDepth = 5
+rrProb = 0.95
+spp = 512
