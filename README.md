@@ -11,6 +11,7 @@ traditional path or light tracing. Below are 2 sample images that were rendered 
 the form of fireflies if done with traditional path tracing.
 
 The primary files of interest are:
+
 https://github.com/JackMinn/Bidirectional-Path-Tracing/blob/master/src/integrators/bdpt.h
 https://github.com/JackMinn/Bidirectional-Path-Tracing/blob/master/src/bsdfs/perfectmirror.h
 https://github.com/JackMinn/Bidirectional-Path-Tracing/blob/master/src/bsdfs/glass.h
